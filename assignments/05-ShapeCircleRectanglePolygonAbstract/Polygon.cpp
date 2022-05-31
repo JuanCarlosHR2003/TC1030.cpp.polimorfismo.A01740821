@@ -18,5 +18,5 @@ std::string Polygon::draw(){
 }
 
 double Polygon::getArea(){
-    return n * lado * apotema / 2;
+    return (double) n * lado * apotema / 2;
 }
