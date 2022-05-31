@@ -1,6 +1,7 @@
 #include "Rectangle.hpp"
 #include "Shape.hpp"
 #include "Circle.hpp"
+#include "Polygon.hpp"
 
 #include <iostream>
 #include <vector>
@@ -15,6 +16,8 @@ int main()
   v.push_back(new Rectangle(1,2,5,6));
   v.push_back(new Circle(4,2,1));
   v.push_back(new Rectangle());
+  v.push_back(new Polygon());
+  v.push_back(new Polygon(1,2,5,2,3));
 
 // Mostrar el tipo de figura -------------------------------
 
